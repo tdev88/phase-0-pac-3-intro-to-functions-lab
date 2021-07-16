@@ -6,12 +6,14 @@ function whisper(string) {
   return string.toLowerCase();
 }
 
-function logShout() {
-  console.log(shout("Hello"));
+function logShout(string) {
+  return (shout(string));
+  console.log(shout(string))
 }
 
-function logWhisper() {
-  console.log(whisper("Hello"));
+function logWhisper(string) {
+  return (whisper(string));
+  console.log(whisper(string))
 }
 
 function sayHiToGrandma(string) {
